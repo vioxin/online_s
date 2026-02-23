@@ -19,7 +19,7 @@ def receive_json_response(ws):
         return None
 
 def heartbeat(interval, ws):
-    print("心臓マッサージ（ハートビート）開始！")
+    print("心臓マッサージ（）開始！")
     while True:
         time.sleep(interval)
         heartbeatJSON = {"op": 1, "d": "null"}
